@@ -1,0 +1,29 @@
+.btn{
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+    font-weight: bold;
+    width: 100%;
+    box-shadow: 0px 5px 10px #945eec3b;
+
+}
+
+.btn.login{
+    color: white;
+    background: #955EEC;
+}
+
+.btn.login.medium{
+    width: 5vw;
+    height: 2vw;
+}
+
+
+.btn.login:hover{
+    color: #955EEC;
+    background: white;
+    border-color: #955EEC;
+}
